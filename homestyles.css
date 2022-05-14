@@ -1,0 +1,19 @@
+.row div {
+    display: flex;
+    justify-content: center;
+}
+
+h3:nth-of-type(2) {
+    color: white;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body a {
+    align-self: flex-start;
+    justify-self: flex-end;
+}
